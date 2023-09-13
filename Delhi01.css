@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    line-height: 1.5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 5rem;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 5px red;
+    position: fixed;
+    width: 98%;
+}
+
+#Logo {
+    width: 40%;
+    color: snow;
+    margin-left: 50px;
+}
+
+.Menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Content {
+    background: linear-gradient(to right, rgb(175 247, 199), #eff0c0, rgb(231, 241, 183), #fcb064, #a5fac1, #faf7f9);
+}
